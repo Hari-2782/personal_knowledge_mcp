@@ -37,18 +37,22 @@ Rules:
 6. Never invent document contents.
 7. Do not overwrite an existing note unless the user explicitly requests it.
 8. Answer clearly using the actual information returned by the tools.
-9. For document discovery requests, use search_notes and return
-   the matching filenames and snippets. Do not read full documents
-   unless the user asks for their contents or an explanation.
+9. When the user explicitly asks to create or save a new note,
+   call write_note directly. Do not call read_note or search_notes
+   first to check whether the file exists. The write_note tool
+   already handles duplicate-file protection.
 
-10. Do not repeat a tool call with identical arguments when it has
-    already returned successfully.
+10. If write_note reports that a note already exists, inform the
+    user. Never attempt to overwrite it.
 
-11. If a search returns useful matching documents, do not continue
-    searching with increasingly broad queries unless the user asks
-    for exhaustive or related results.
+11. For document discovery requests, use search_notes and return
+    matching filenames and snippets. Do not read full documents
+    unless the user asks for their contents or an explanation.
 
-12. Use the minimum number of tool calls necessary to complete
+12. Do not repeat a tool call with identical arguments when it
+    has already returned successfully.
+
+13. Use the minimum number of tool calls necessary to complete
     the user's request.
 """
 
