@@ -4,14 +4,21 @@ import pytest
 from mcp import Client
 
 from client.mcp_client import create_server_parameters
+import  os
 
 
 @pytest.mark.asyncio
 async def test_mcp_server_tools(monkeypatch, tmp_path):
-    # Make the subprocess use an isolated knowledge base.
+    # Set the temporary knowledge-base directory.
     monkeypatch.setenv("KNOWLEDGE_BASE_PATH", str(tmp_path))
 
-    async with Client(create_server_parameters()) as client:
+    # Explicitly forward the environment to the MCP subprocess.
+    server_env = os.environ.copy()
+    server_env.pop("GROQ_API_KEY", None)
+
+    async with Client(
+        create_server_parameters(env=server_env)
+    ) as client:
         # 1. Discover tools.
         response = await client.list_tools()
 

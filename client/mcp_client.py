@@ -1,7 +1,8 @@
-
+import os
 import asyncio
 import json
 import sys
+
 
 from mcp import Client
 from mcp.client.stdio import StdioServerParameters
@@ -9,15 +10,16 @@ from mcp.client.stdio import StdioServerParameters
 from knowledge_mcp.config import PROJECT_ROOT
 
 
-def create_server_parameters() -> StdioServerParameters:
-    """Configure the local MCP server subprocess."""
 
+def create_server_parameters(
+    env: dict[str, str] | None = None,
+) -> StdioServerParameters:
     return StdioServerParameters(
         command=sys.executable,
         args=["-m", "knowledge_mcp.server"],
         cwd=str(PROJECT_ROOT),
+        env=env,
     )
-
 
 async def discover_tools(client: Client):
     """Discover tools dynamically from the MCP server."""
