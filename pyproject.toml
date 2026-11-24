@@ -1,11 +1,9 @@
+
 [project]
 name = "personal-knowledge-mcp"
 version = "0.1.0"
 description = "A Python MCP server and Groq-powered AI agent for personal knowledge management"
 readme = "README.md"
-authors = [
-    { name = "hari-2782", email = "hmsanth@gmai.com" }
-]
 requires-python = ">=3.12"
 dependencies = [
     "groq>=1.7.0",
@@ -13,9 +11,6 @@ dependencies = [
     "pydantic>=2.14.4",
     "python-dotenv>=1.2.4",
 ]
-
-[project.scripts]
-personal-knowledge-mcp = "personal_knowledge_mcp:main"
 
 [build-system]
 requires = ["uv_build>=0.13.9,<0.14.0"]
@@ -26,8 +21,9 @@ dev = [
     "pytest>=9.2.0",
     "pytest-asyncio>=1.5.0",
 ]
-[tool.hatch.build.targets.wheel]
-packages = ["src/knowledge_mcp"]
+
 [tool.pytest.ini_options]
 asyncio_mode = "strict"
 asyncio_default_fixture_loop_scope = "function"
+[tool.uv.build-backend]
+module-name = "knowledge_mcp"

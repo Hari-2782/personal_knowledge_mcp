@@ -5,8 +5,9 @@ build/
 dist/
 wheels/
 *.egg-info
-
-
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
 # Environment
 .env
 .venv/
@@ -24,3 +25,9 @@ wheels/
 # Local data
 .DS_Store
 Thumbs.db
+
+# Private local knowledge base
+knowledge_base/
+
+# Local evaluation output
+evaluation_results.json

@@ -1,1 +1,0 @@
-# Updated MCP Notes
