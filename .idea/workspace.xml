@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c9d93ff-750e-4a6a-9a3a-bf808a25bfba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/personal-knowledge-mcp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.python-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/knowledge_mcp/config.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000160335145382" />
+      <entry key="S2" value="1.3768306577340848" />
+      <entry key="S5" value="2.9540661153880645" />
+      <entry key="S10" value="4.415257320756561" />
+      <entry key="S30" value="5.976692228381856" />
+      <entry key="S60" value="6.920468427217808" />
+      <entry key="M2" value="10.496647190287415" />
+      <entry key="M5" value="20.470773890765017" />
+      <entry key="M10" value="27.986621374466782" />
+      <entry key="M15" value="31.369179990246227" />
+      <entry key="M30" value="35.33440763355321" />
+      <entry key="H1" value="37.57123879259831" />
+      <entry key="H2" value="38.760468448626945" />
+      <entry key="H4" value="39.37379412559845" />
+      <entry key="D1" value="39.89472460156183" />
+      <entry key="W1" value="39.98493825082181" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.009718780820422E-14" />
+      <entry key="MS500" value="0.001981151879516631" />
+      <entry key="S2" value="0.5824505907508017" />
+      <entry key="S5" value="2.4841752878720347" />
+      <entry key="S10" value="4.142952023250786" />
+      <entry key="S30" value="5.876020440919545" />
+      <entry key="S60" value="6.868739430191808" />
+      <entry key="M2" value="10.470264366361748" />
+      <entry key="M5" value="20.459710656045587" />
+      <entry key="M10" value="27.980764122168086" />
+      <entry key="M15" value="31.365146852055805" />
+      <entry key="M30" value="35.33230323514646" />
+      <entry key="H1" value="37.57015878273773" />
+      <entry key="H2" value="38.7599206036219" />
+      <entry key="H4" value="39.37351812076075" />
+      <entry key="D1" value="39.89467830058517" />
+      <entry key="W1" value="39.984931628898565" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3MXUS9SYM2r6EZQ50um33OGMX1u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Workspace/Projects/AI-ML/personal-knowledge-mcp/tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Projects\AI-ML\personal-knowledge-mcp\tests" />
+      <recent name="D:\Workspace\Projects\AI-ML\personal-knowledge-mcp\src\knowledge_mcp\validators" />
+      <recent name="D:\Workspace\Projects\AI-ML\personal-knowledge-mcp\src\knowledge_mcp\tools" />
+      <recent name="D:\Workspace\Projects\AI-ML\personal-knowledge-mcp\src\knowledge_mcp\services" />
+      <recent name="D:\Workspace\Projects\AI-ML\personal-knowledge-mcp\client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Projects\AI-ML\personal-knowledge-mcp\src\knowledge_mcp" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-9e1d95ea72ba-e0583fc556d1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-263.7307.329" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c9d93ff-750e-4a6a-9a3a-bf808a25bfba" name="Changes" comment="" />
+      <created>1795496402770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795496402770</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
